@@ -1,3 +1,3 @@
-#Slot Machine [Find link toPublished Azure App below]
+#Slot Machine [Find link to Published Azure App below]
 
 Azure Cloud Link : http://slot-machine12.azurewebsites.net/ 
