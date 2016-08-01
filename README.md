@@ -1,3 +1,3 @@
-# SlotMachineGame_Assignment03 [Added Link to Publsihed Azure App below]
+#Slot Machine [Find link toPublished Azure App below]
 
 Azure Cloud Link : http://slot-machine12.azurewebsites.net/ 
