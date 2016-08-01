@@ -1,0 +1,62 @@
+﻿<!-- Author name Able Varghese, Tom Tisiliopolis
+Last Modified by Able Varghese
+Date last Modified : July 12th.
+
+Program description: This is a slot machine game. The player adds the bet amoun and Click the SPIN button to play the game. If the player gets one item in all the three reels
+the player wins, but if the player gets a blank item in any one of th reel player is considered failed in the that attempt and the bet amount is lost.
+
+Revision History.  -- V1. July 5th 
+                      V2. July 8th 
+                      V3. July 13th -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COMP397 - Slot Machine</title>
+    
+<!-- CSS Section -->
+    <!-- Resetting all the default styles -->
+    <link href="Content/reset.css" rel="stylesheet" />
+    <!-- Style added for the  slot machine game -->
+    <link href="Content/game.css" rel="stylesheet" />
+</head>
+
+
+<body>
+    <div class="game">
+        <!-- Addding a canvas area to the screen -->
+        <canvas id="canvas" width="840" height="580"></canvas>
+    </div>
+
+    <!--  Adding JavaScript Libraries-->
+    <script src="Scripts/config/config.js"></script>
+
+<!-- These are the packages added using bower and referenced and loaded into memory for the before the game scripts, so that the game scripts can utilize these libraries
+Includes: Jquery; Stats(shows frame rate); easelJS; tweenJS(animation/motion); soundJS(for sound); preloadJS(for adding multiple resources in a queue-->
+    <script src="Scripts/lib/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/lib/Stats.js"></script>
+    <script src="Scripts/lib/easeljs-0.8.1.min.js"></script>
+    <script src="Scripts/lib/tweenjs-0.6.1.min.js"></script>
+    <script src="Scripts/lib/soundjs-0.6.1.min.js"></script>
+    <script src="Scripts/lib/preloadjs-0.6.1.min.js"></script>
+
+    <!-- These are Game Scripts -->
+     <script src="Scripts/objects/asset.js"></script>
+    <script src="Scripts/objects/label.js"></script>
+    <script src="Scripts/objects/button.js"></script>
+    <script src="Scripts/objects/scene.js"></script>
+
+    <!-- Scene Scripts -->
+    <script src="Scripts/scenes/gameover.js"></script>
+    <script src="Scripts/scenes/slotmachine.js"></script>
+    <script src="Scripts/scenes/menu.js"></script>
+
+    <!-- Main Game Scripts -->
+    <script src="Scripts/core/game.js"></script>
+</body>
+</html>
